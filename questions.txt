@@ -1,0 +1,63 @@
+Algiers,What "A" is the Capital of Algieria?,Athens,Algiers,Ankara,Amman
+Adam's Apple,What "A" is found in the neck?,Adrenal Gland,Aortic Valve,Adam's Apple,Amygdala
+Alexander Fleming,Which "A" discovered penicillin?,Alexander Bell,Alexander Fleming,Archimedes,Alfonso Bialetti
+Buenos Aires,What "B" is the Capital og Argentina?,Budapest,Barcleona,Bratislava,Buenos Aires
+Billie Eilish,Which "B" recorded the Bond Theme 'No Time To Die',Blur,Billie Eilish,Bob Marley,Bruce Springsteen
+Blackstreet,Which "B" had a hit with the song 'No Diggity'?,Beastie Boys,Blondie,Blur,Blackstreet
+Cairo,What "C" is the Capital of Egypt?,Cairo,Chennai,Córdoba,Cincinnati
+Carbon, What "C" is represented by the symbol C in the Periodic Table?,Carbon,Calcium,Caesium,Copper
+Constantinople,What "C" was the original name of Istanbul,Corinth,Crete,Constantinople,Carthage
+Chris Pine,Which "C" played Captain Kirk in the 2009 Star Trek reboot?,Chris Hemsworth,Chris Pratt,Chris Pine,Chris Evans
+Damascus,What "D" is the Capital of Syria?,Delhi,Dublin,Damascus,Dubai
+Down's Syndrome,What "D" is a condition characterized by the presence of an extra chromosome?,Diabetes,Dyslexia,Dysentry,Down's Syndrome
+Daniel Craig,Which "D" played James Bond in the film 'No Time To Die',Daniel Radcliffe,Dwayne Johnson,David Tennant,Daniel Craig
+Daddy Cool,What "D" was a hit for the band 'Boney M',Daddy Cool,Danny Boy,Dancing In The Moonlight,Don't Stop Believin'
+Edinburgh,What "E" is the Capital of Scotland?,Essen,Edinburgh,Eindhoven,El Paso
+Emily Blunt,Which "E" played the lead actress in 'A Quiet Place',Emily Blunt,Emma Watson,Elizabeth Olsen,Emma Stone
+Emma Stone,Which "E" played the lead in 'La La Land',Elizabeth Olsen,Emma Watson,Emma Stone,Emily Blunt
+Evan Rachel Wood,Which "E" starred in the TV show 'Westworld'?,Eva Mendes,Emilia Clarke,Evan Rachel Wood,Elle Fanning
+Freetown,What "F" is the Capital of Sierra Leone?,Florence,Freetown,Fuji,Fresno
+Flash Gordon, Which "F" is the arch enemy of Ming the Merciless,Fantastic Four,Falcon,Flash,Flash Gordon
+Feta,What "F" is a type of cheese?,Feta,Fajitas,Fritters,Frappe
+Georgetown,What "G" is the Capital of Guyana?,Georgetown,Glasgow,Gdansk,Guantanamo
+Gillian Flynn,Which "G" wrote the novels Gone Girl and Sharp Objects?,Gillian Anderson,Gillian Flynn,Gillian Shephard,Gillian Welch
+Hanoi,What "H" is the Capital of Vietnam?,Hanoi,Havana,Helsinki,Hannover
+Islamabad,What "I" is the Capital of Pakistan?,Islamabad,Irkutsk,Islampur,Issia
+Italy,What "I" is the host country for the 2026 Winter Olympics?,Ireland,India,Italy,Iceland
+Jakarta,What "J" is the Capital of Indonesia?,Johannesburg,Jodhpur,Jakarta,Jaunpur
+Kabul,What "K" is the Capital of Afghanistan?,Kabul,Karachi,Kolkata,Khartoum
+Knee, What "K" is where you would find the cruciate ligament?,Kidneys,Knee,Knuckle,Krypton
+Kylie Jenner,Which "K" did Forbes name the youngest self-made billionaire in 2019?,Kylie Minogue,Kylie Jenner,Kim Kardashian,Keira Knightley
+Lisbon,What "L" is the Capital of Portugal?,Lima,Lisbon,La Paz,Leipzig
+Leeds Utd,Which "L" is the football club who play their home games at Elland Road?,Liverpool,Luton Town,Leicester City,Leeds Utd
+Lemon,What "L" is a member of the Citrus family,Lettuce,Lentils,Lobster,Lemon
+Montevideo,What "M" is the Capital of Uruguay?,Minsk,Mogadishu,Moscow,Montevideo
+MS Dhoni, Which "M" is the captain of the Chenanai Super Kings?,Mohammad Nawaz,Moeen Ali,MS Dhoni,Mohammed Siraj
+Nairobi,What "N" is the Capital of Kenya?,Nantes,Norfolk,Nicosia,Nairobi
+Nickel,What "N" is represented by the symbol Ni in the Periodic Table?,Niobium,Nickel,Nitrogen,Nihonium
+Nine Inch Nails,What N is a band formed by Trent Reznor,Nine Inch Nails,N Sync,Napalm Death,Nirvana
+Ottawa,What "O" is the Capital of Canada?,Ottawa,Oakland,Omaha,Orlando
+Oyster,What "O" is associated with pearls?,Otter,Octopus,Oyster,Owl
+Oedipus,Which "O" in Greek Myth killed his father and married his mother?,Odysseus,Oedipus,Orpheus,Olympus
+Phnom Pehn,What "P" is the Capital of Cambodia?,Prague,Phnom Pehn,Pyongyang,Pristina
+Paris,What "P" is the host city for the 2024 Summer Olympics?,Prague,Paris,Philadelphia,Perth
+Pashto,What P is a language spoken in Afghanistan,Punjabi,Persian,Pashto,Polish
+Quito,What "Q" is the Capital of Equador?,Qarshi,Qom,Quito,Quezon City
+Quiche,What "Q" is traditionally a French tart with a savory custartd and a pastry crust,Quinoa,Quiche,Quail,Quadrettini
+Question Time,What "Q" was first broadcast in 1979?,Quantum Leap,Quantico,QI,Question Time
+Quantas,What "Q" is the Australian National Airline,Quantas,Quantico,Quantal,Quinto
+Reykjavik,What "R" is the Capital of Iceland?,Riga,Riyadh,Rio,Reykjavik
+Radiohead,Which "R" had a hit with the single Creep?,REM,Radiohead,Rhianna,Rita Ora
+Seoul,What "S" is the Capital of South Korea?,Santiago,Seoul,Skopje,Sofia
+Spaghetti,What "S" is Penne an example of?,Sausage,Spaghetti,Strawberry,Shrimp
+Tallinn,What "T" is the Capital of Estonia?,Tripoli,Tokyo,Tallinn,Tijuana
+Tin, What "T" is represented by the symbol Sn in the Periodic Table?,Titanium,Tellerium,Thallium,Tin
+Ulaanbaatar,What "U" is the Capital of Mongolia?,Ulm,Udine,Ulaanbaatar,Union City
+Vilnius,What "V" is the Capital of Lithuania?,Vaduz,Vienna,Valencia,Vilnius
+Warsaw,What "W" is the Capital of Poland?,Wellington,Warsaw,Waco,Wolfsburg
+Xanadu,What "X" is a Town or City found in the United States?,Xanadu,Xanthi,Xàtiva,Xerta
+Yerevan,What "Y" is the Capital of Armenia?,Yaounde,Yosemite,Yerevan,Yeovil
+Yeshiva,What "Y" is a religious academy for the study of Jewish texts,Yurts,Yerba,Yirring,Yeshiva
+Zagreb,What "Z" is the Capital of Croatia?,Zurich,Zilina,Zwolle,Zagreb
+Zebu,What "Z" is a domestic cattle originating in the Indian Subcontinent,Zebra,Zebu,Zokor,Zamurito
+Zucchini,What "Z" is also known as a courgette,Zeppole,Ziti,Zucchini,Zuccotto
