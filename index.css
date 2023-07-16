@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'DIGITALDREAMFAT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('fonts/DIGITALDREAMFAT.ttf') format('woff');
+}
+
+:root{
+    --font-size:10px;
+    --body-font-size:calc(var(--font-size) * 1.8);
+    --h1-font-size:calc(var(--font-size) * 3.6);
+    --hex-font-size:calc(var(--font-size) * 2.2);
+
+    --body-font-color:rgb(195, 195, 195);
+    --title-color:#58588d;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:rgb(0, 0, 0);
+    width:100vw;
+    height:100vh;
+    color:var(--body-font-color);
+    display:grid;
+    grid-template-rows: auto 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--body-font-size);
+}
+
+header{
+    display: flex;
+    padding:1rem;
+    gap:1rem;
+    justify-content: start;
+}
+
+main{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;    
+}
+
+h1{
+    color: var(--title-color);
+    font-size:var(--h1-font-size);
+    font-family: DIGITALDREAMFAT;
+}
+
+#game-container{
+    display: grid;
+    font-size: var(--font-size);
+    font-family: DIGITALDREAMFAT;
+    grid-template-columns: repeat(16, 2em);
+    grid-template-rows: repeat(9, 4em);
+    gap:4px;
+    padding:0.75em 0.5em;
+}
+
+/*Individual Hexes*/
+.hex{
+    position:relative;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex .letter{
+    font-size: var(--hex-font-size);
+    font-weight: 900;
+    color:black;
+}
+
+.mouse{background:yellow;}
+
+.mouse:hover{background:rgb(255, 255, 180)}
+
+.mouse:active{background:rgb(141, 113, 240)}
+
+.is-correct{background:rgb(141, 113, 240)}
+
+.is-wrong{background:rgb(243, 242, 248)}
+
+.blink{animation: blinking 0.5s alternate-reverse infinite ease-in-out;}
+
+@keyframes blinking{
+    0% {background: yellow;}
+    100% {background: rgb(141, 113, 240);}
+}
+
+
+#display-container{
+    font-family: Arial;
+    font-size: var(--body-font-size);
+    width:21rem;
+    height:20rem;
+    color:black;
+    margin-top: 2em;
+}
+
+#question-block{
+    width:100%;
+    padding:1em;
+    text-align: center;
+    border:2px solid;
+    border-radius: 10px;
+    background:rgb(174, 0, 90);
+}
+
+#answers-container{margin-top: 1rem;}
+
+.answers{
+    display:flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.answer{
+    text-align: center;
+    border:2px solid;
+    border-radius: 10px;
+    width:47%;
+    padding:1em 0;
+    background:rgb(253, 121, 189);
+}
+
+
+.answer:hover{background:rgb(255, 169, 213);}
+
+.answer:active{background:rgb(174, 0, 90);}
+
+
+/*a "tick" or "cross" to indicate a correct or incorect answer has been selected
+  green for yes and red for no
+*/
+.response{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    font-size: 65px;
+}
+
+.response .correct{color:rgb(0, 255, 0);}
+
+.response .wrong{color:red;}
+
+/*hamburger menu*/
+.icon-button{
+    width:2.5rem;
+    height:2.5rem;
+    background-size: 2.5rem;
+}
+
+.icon-menu{background-image: url("images/menu_1.png");}
+.icon-menu:hover{background-image: url("images/menu_2.png");}
+.icon-menu:active{background-image: url("images/menu_3.png");}
+
+/*Sidebar*/
+
+#sidenav {
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+.sidenav-container{
+    height: 100%;
+    width: 250px;
+    padding:1em;
+    overflow: hidden;
+}
+
+.sidenav-container button{
+    display:block;
+    font-family: var(--font-size);
+    font-size: inherit;
+    padding:0.3em 0.5em;
+    border-radius: 0;
+    border:0;
+}
+
+.sidenav-container button:not(:first-child){margin-top: 1em;}
+
+.sidenav-container button:nth-child(4){margin-top: 5em;}
+
+
+/*Used to hide the files input, but can still be triggered remotely*/
+.hide{
+    position:absolute;
+    top:-100px;
+    left:-100px;
+    opacity:0;
+}
+
+
+/* Examine Question Block*/
+#examine-questions-block{
+    position: fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    color:#000000;
+    z-index: 50;
+    background:rgba(0,0,0,0.3);
+}
+
+#examine-questions{
+    position: absolute;
+    left:0;
+    bottom:0;
+    padding:1em;
+    width:100%;
+    background:white;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+.examine-questions .questions{width:100%;}
+
+.examine-questions-component{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 0.5em;
+}
+
+.examine-questions-component:nth-child(1),.examine-questions-component:nth-child(2){
+    display:block;
+    margin-bottom:1em;
+}
+.examine-questions-component:nth-child(3){
+    display:inline-block;
+    margin-right: 3em;
+}
+
+.examine-questions-component:nth-child(n+4){
+    margin-right: 0.5em;
+    display:inline-block
+}
+
+.examine-questions-button-container{
+    display: flex;
+    gap:1em;
+    justify-content: end;
+}
+
+.examine-questions-button{
+    padding:1em 2em;
+    display: inline-block;
+}
+
+.examine-questions-button:last-child{margin-left: 5em;}
+
+
+.bg-green{background: green;}
+.hidden{display:none;}
+.opacity-0{opacity:0;}
+
+
+/*instructions on hwo to play*/
+#instructions{
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:#000000;
+    z-index:50;
+}
+
+.instructions-container{
+    width:80%;
+    background:white;
+    border:3px solid blue;
+    border-radius: 25px;
+    display:grid;
+    grid-template-rows: 1fr auto;
+}
+
+.instructions-text{
+    color:black;
+    padding:1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--hex-font-size);
+}
+
+.instructions-text p{
+    margin-bottom: 0.5em;
+}
+
+.instruction-button-container{
+    display:flex;
+    justify-content: center;
+    padding-bottom:1em;
+}
+
+.instruction-button{
+    font-size: var(--body-font-size);
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    padding:0.24em 0.5em;
+}

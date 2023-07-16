@@ -1,0 +1,1 @@
+export const RandomInt=num=>Math.floor(Math.random()*num);

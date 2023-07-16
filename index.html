@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="toggle-menu" class="icon-button icon-menu"></div>
+        <h1>Blockbusters</h1>
+    </header>
+    <main>
+        <section id="sidenav">
+            <div class="sidenav-container">
+                <button id="loadQuestions">Load Questions</button>
+                <button id="mergeQuestions">Merge Questions</button>
+                <button id="newGame">Start</button>
+                <button id="examineQuestions">Examine</button>
+                <button id="instructions-show">Instructions</button>
+            </div>
+        </section>
+        <section id="game-container"></section>
+        <section id="display-container" class="opacity-0">
+            <div id="question-block"></div>
+            <div id="answers-container" class="hidden">
+                <div id="answers" class="answers">
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                </div>
+            </div>>
+            <div class="response">
+                <div id="correctAnswer" class="correct hidden">&#10003;</div>
+                <div id="wrongAnswer" class="wrong hidden">&#10540;</div>
+            </div>
+        </section>
+    </main>
+    <section id="examine-questions-block" class="hidden">
+        <div id="examine-questions">
+            <div class="questions">
+                <div id="the-input" class="examine-questions-component">this is a typical input</div>
+                <div id="the-question" class="examine-questions-component">this is a typical question</div>
+                <div id="the-answer" class="examine-questions-component">one</div>
+                <div id="the-option-1" class="examine-questions-component">two</div>
+                <div id="the-option-2" class="examine-questions-component">three</div>
+                <div id="the-option-3" class="examine-questions-component">four</div>
+                <div id="the-option-4" class="examine-questions-component">five</div>
+            </div>
+            <div class="examine-questions-button-container">
+                <button id="back-one-question" class="examine-questions-button">Back</button>
+                <button id="forward-one-question" class="examine-questions-button">Next</button>
+                <button id="exit-examine-question-block" class="examine-questions-button">Exit</button>
+            </div>
+        </div>
+    </section>
+    <section id="instructions"">
+        <div class="instructions-container">
+            <div class="instructions-text">
+                <p>This is a single player version of the classic TV show.</p>
+                <p>To play the game you need to move horizontally across the board by answering questions correctly.</p>
+                <p>If you fail to answer a question correctly, that particular hex will block your path and an alternate route will be required.</p>
+                <p>You can answer the questions in any order.</p>
+                <p>The game will end when you have successfully joined the two ends (a win), or if there is no longer a viable path across the board (a loss).</p>
+                <p>Before you can play you need a set of questions. A set of questions can be added using either the "Load Question" button (replacing the existing question set) or by merging sets of questions. By default there is no initial set of questions loaded. A limited set of questions in a text file is included.</p>
+                <p>All buttons can be accessed by clicking on the hamburger menu button (top left). These will not be accessible once a game has begun and will only be available again once the game has ended.</p>
+                <p>The format for creating a set of questions is a list of CSV values in a text file. Each line should be made up of 'Answer,Question,Option1,Option2,Option3,Option4'. One of the options should match the answer.</p>
+                <p>Use the 'Examine' button to check your list of questions before using them in game. It will allow you to examine each question in detail and look for errors. It will not allow you to make or save changes.</p>
+                <p>If you are still unsure on how to play please follow the link:<a target="_blank" href="https://www.youtube.com/watch?v=HWutCvE8En4">'Classic Blockbusters episode'</a>.</p>
+                <p>Good Luck. And enjoy!</p>
+            </div>
+            <div class="instruction-button-container">
+                <button id="instructions-exit" class="instruction-button">Exit</button>
+            </div>
+        </div>
+    </section>
+    <input id="loadFiles" type="file" class="hide"/>
+</body>
+</html>
